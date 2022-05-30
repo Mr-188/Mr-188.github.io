@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>黑盒测试和白盒测试 | 君悦OwO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="注：资料皆来自与网络搜索，真实性有待考估。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黑盒测试和白盒测试">
+<meta property="og:url" content="http://example.com/2022/05/30/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95/index.html">
+<meta property="og:site_name" content="君悦OwO">
+<meta property="og:description" content="注：资料皆来自与网络搜索，真实性有待考估。">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-05-30T04:43:46.000Z">
+<meta property="article:modified_time" content="2022-05-30T08:29:32.849Z">
+<meta property="article:author" content="Liu Jie">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="君悦OwO" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">君悦OwO</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-黑盒测试和白盒测试" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/30/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95/" class="article-date">
+  <time class="dt-published" datetime="2022-05-30T04:43:46.000Z" itemprop="datePublished">2022-05-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      黑盒测试和白盒测试
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>注：资料皆来自与网络搜索，真实性有待考估。</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="白盒测试"><a href="#白盒测试" class="headerlink" title="白盒测试"></a>白盒测试</h1><h2 id="语句覆盖"><a href="#语句覆盖" class="headerlink" title="语句覆盖"></a>语句覆盖</h2><p>语句覆盖是最起码的结构覆盖要求，语句覆盖要求设计足够多的测试用例，使得程序中每条语句至少被执行一次。</p>
+<h2 id="判定覆盖"><a href="#判定覆盖" class="headerlink" title="判定覆盖"></a>判定覆盖</h2><p>判定覆盖就是设计若干个测试用例，运行被测程序，使得程序中每个判断的取真分支和取假分支至少经历一次。判定覆盖又称为分支覆盖。</p>
+<p>判定覆盖只比语句覆盖稍强一些，但实际效果表明，只是判定覆盖，还不能保证一定能查出在判断的条件中存在的错误。因此，还需要更强的逻辑覆盖准则去检验判断内部条件。</p>
+<h2 id="条件覆盖"><a href="#条件覆盖" class="headerlink" title="条件覆盖"></a>条件覆盖</h2><p>条件覆盖就是设计若干个测试用例，运行被测程序，使得程序中每个判断的每个条件的可能取值至少执行一次。</p>
+<p>条件覆盖深入到判定中的每个条件，但可能不能满足判定覆盖的要求。</p>
+<h2 id="判定－条件覆盖"><a href="#判定－条件覆盖" class="headerlink" title="判定－条件覆盖"></a>判定－条件覆盖</h2><p>判定－条件覆盖就是设计足够的测试用例，使得判断中每个条件的所有可能取值至少执行一次，同时每个判断本身的所有可能判断结果至少执行一次。换言之，即是要求各个判断的所有可能的条件取值组合至少执行一次。</p>
+<p>判定－条件覆盖有缺陷。从表面上来看，它测试了所有条件的取值。但是事实并非如此。往往某些条件掩盖了另一些条件。会遗漏某些条件取值错误的情况。为彻底地检查所有条件的取值，需要将判定语句中给出的复合条件表达式进行分解，形成由多个基本判定嵌套的流程图。这样就可以有效地检查所有的条件是否正确了。</p>
+<h2 id="多重条件覆盖"><a href="#多重条件覆盖" class="headerlink" title="多重条件覆盖"></a>多重条件覆盖</h2><p>多重条件覆盖就是设计足够的测试用例，运行被测程序，使得每个判断的所有可能的条件取值组合至少执行一次。</p>
+<p>这是一种相当强的覆盖准则，可以有效地检查各种可能的条件取值的组合是否正确。它不但可覆盖所有条件的可能取值的组合，还可覆盖所有判断的可取分支，但可能有的路径会遗漏掉。测试还不完全。</p>
+<h2 id="路径测试"><a href="#路径测试" class="headerlink" title="路径测试"></a>路径测试</h2><p>路径测试就是设计足够的测试用例，覆盖程序中所有可能的路径。这是最强的覆盖准则。但在路径数目很大时，真正做到完全覆盖是很困难的，必须把覆盖路径数目压缩到一定限度。下面我们做一分析。</p>
+<h1 id="黑盒测试"><a href="#黑盒测试" class="headerlink" title="黑盒测试"></a>黑盒测试</h1><h2 id="等价类划分法"><a href="#等价类划分法" class="headerlink" title="等价类划分法"></a><strong>等价类划分法</strong></h2><p>等价类划分法是指将程序的输入值的集合划分为若干等价类，等价类又分为有效等价类和无效等价类，从每一类中选取少量数据进行测试。</p>
+<h2 id="边界值分析法"><a href="#边界值分析法" class="headerlink" title="边界值分析法"></a><strong>边界值分析法</strong></h2><p>边界值分析法是针对输入数据的边界值的测试，一般情况下与等价类划分法结合使用，根据各个等价类的边界值设计测试用例。</p>
+<h2 id="判定表法"><a href="#判定表法" class="headerlink" title="判定表法"></a><strong>判定表法</strong></h2><p>是根据判定条件列出所有可能的组合，当有n个条件时，就需要列出相应的2n个测试用例。</p>
+<h2 id="正交实验法"><a href="#正交实验法" class="headerlink" title="正交实验法"></a><strong>正交实验法</strong></h2><p>正交实验法是利用正交表来对程序进行测试，用较少的测试用例进行较全面的测试。根据正交表的正交性，从全面试验中挑选出适量的、有代表性的点进行试验。</p>
+<p>正交表是一种特制的表格，一般用Ln（mk）来表示，其中L表示正交表，n表示测试用例数，k表示最多可安排影响指标因素的个数或正交表的列数，m表示每个因素的水平数即状态，n=k*（m-1）-1，即最少的测试用例数。</p>
+<h2 id="流程图分析法"><a href="#流程图分析法" class="headerlink" title="流程图分析法"></a><strong>流程图分析法</strong></h2><p>当一个事件触发时，就形成了一个场景，而同一事件的不同触发顺序和处理结果就形成了事件流。在测试一个软件的时候，在场景法中，测试流程是软件功能按照正确的事件流实现的一条正确的流程，即基本流，而凡是出现故障或缺陷的过程，就称为备选流，备选流是可以从基本流来的，或是由备选流引出的。</p>
+<h2 id="因果图法"><a href="#因果图法" class="headerlink" title="因果图法"></a><strong>因果图法</strong></h2><p>因果图法是一种利用图解法分析输入的各种组合情况，从而设计测试用例的方法，适用于检查程序输入的各种组合条件。</p>
+<p>因果图法比较合适输入条件比较多的情况，测试所有的输入条件的排列组合，所谓的原因就是输入，所谓的结果就是输出。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/30/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95/" data-id="cl3sgxz0w0000l8oe9634hqii" data-title="黑盒测试和白盒测试" class="article-share-link">Share</a>
+      
+      
+        <a href="/2022/05/30/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95/#comments" class="article-comment-link">
+          <span class="post-comments-count valine-comment-count" data-xid="/2022/05/30/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95/" itemprop="commentCount"></span>
+          Comments
+        </a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/05/29/%E5%9F%BA%E4%BA%8ESpring-Boot%E5%BC%80%E5%8F%91%E7%9A%84%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">基于Spring Boot开发的视频网站</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+  <section id="comments" class="vcomment">
+
+  </section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/05/30/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95/">黑盒测试和白盒测试</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/29/%E5%9F%BA%E4%BA%8ESpring-Boot%E5%BC%80%E5%8F%91%E7%9A%84%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99/">基于Spring Boot开发的视频网站</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/29/%E5%9F%BA%E4%BA%8EAndroid-Studio%E5%BC%80%E5%8F%91%E7%9A%84%E7%AE%80%E6%98%93%E9%80%9A%E8%AE%AF%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">基于Android Studio开发的简易通讯录管理系统</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/29/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%B3%A8%E6%84%8F%E7%82%B9/">Hexo博客使用valine评论系统的注意点</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/28/U%E7%9B%98%E8%AF%BB%E5%86%99%E7%AD%96%E7%95%A5/">U盘读写策略</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 Liu Jie<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+
+<script>
+    var GUEST_INFO = ['nick','mail','link'];
+    var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+        return GUEST_INFO.indexOf(item) > -1
+    });
+    var notify = 'false' == true;
+    var verify = 'false' == true;
+    new Valine({
+        el: '.vcomment',
+        notify: notify,
+        verify: verify,
+        appId: "pYrp738VRi3l7ocegYAgpR5O-gzGzoHsz",
+        appKey: "ebj6DB9C9o2uayqOnvil6Qoq",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        pageSize:'10',
+        avatar:'',
+        lang:'',
+        visitor: 'true'
+    });
+</script>
+
+  </div>
+</body>
+</html>
